@@ -1,6 +1,6 @@
 import numpy as np
 from numpy.polynomial import legendre
-from smuthi import spherical_functions as sf
+from smuthi.utility import math as sf
 import bessel_functions as bf
 
 
