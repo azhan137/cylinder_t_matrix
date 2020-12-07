@@ -3,10 +3,10 @@ from numpy.polynomial import legendre
 import scipy.io as sio
 
 #need to import spherical angular functions from SMUTHI by Amos Egel
-from smuthi import spherical_functions as sf
+from smuthi.utility import math as sf
 
 #wrapper functions for spherical Bessel and Hankel functions found in SMUTHI
-import bessel_functions as bf
+import cylinder_t_matrix.bessel_functions as bf
 
 
 #main method to be called to compute the T matrix of a scatterer and its derivatives. Takes in:
