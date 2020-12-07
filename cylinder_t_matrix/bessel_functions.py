@@ -1,4 +1,4 @@
-from smuthi import spherical_functions as sf
+from smuthi.utility import math as sf
 
 #utility class for computing spherical Bessel and Hankel functions. Mostly serves as a wrapper for
 #existing methods in smuthi.spherical_functions

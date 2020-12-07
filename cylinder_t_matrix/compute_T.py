@@ -1,7 +1,7 @@
 import numpy as np
 from numpy.polynomial import legendre
-from smuthi import spherical_functions as sf
-import bessel_functions as bf
+from smuthi.utility import math as sf
+import cylinder_t_matrix.bessel_functions as bf
 
 
 def compute_T(lmax, Ntheta, geometric_params, n0, ns, wavelength, particle_type):
